@@ -1,92 +1,54 @@
-Audio Device Monitor
+# Audio Device Monitor
 
+A smart Windows utility that automatically pauses your media when you unplug your headphones.
 
+![Audio Device Monitor Screenshot](https://i.imgur.com/Nc4eZI6.png)
 
-A smart Windows utility that automatically pauses your media when you unplug your headphones, preventing audio from unexpectedly playing through your speakers.
+## About The Project
 
+Audio Device Monitor is a lightweight application that runs silently in the system tray, monitors your audio devices, and intelligently pauses any playing media the moment your primary device is disconnected. This prevents the common and often embarrassing problem of audio suddenly blasting from your speakers when you unplug your headphones.
 
-[
-Screenshot](https://i.imgur.com/tRZ1C15.png)
+### Features
 
+* **Automatic Media Pausing:** Instantly pauses media from apps like Spotify, YouTube (in-browser), VLC, and more.
+* **System Tray Operation:** Runs discreetly in the system tray for easy access without cluttering your desktop.
+* **Customizable Settings:**
+    * Enable/disable launching the app on startup.
+    * Toggle desktop notifications for when media is paused.
+    * Switch between Light and Dark themes.
+    * Multi-language support (English & Finnish).
 
+## Getting Started
 
-This application runs silently in the system tray, monitors your audio devices, and intelligently pauses any playing media the moment that device is disconnected.
+To get a copy up and running, follow these simple steps.
 
+### Installation
 
+[**Releases**](https://github.com/ayyyuuuuuuuub/AudioDeviceMonitor/releases)
 
-✨ Features
+## Building from Source
 
+If you'd like to contribute or build the project yourself, you'll need to have the following installed:
 
+* [Visual Studio 2022](https://visualstudio.microsoft.com/) (Community Edition is sufficient)
+* The ".NET desktop development" workload in the Visual Studio Installer.
 
-&nbsp;   Automatic Media Pausing: Instantly pauses media from apps like Spotify, YouTube (in-browser), VLC, and more when your default audio device is unplugged or disconnected.
+Once the prerequisites are met, you can clone the repository and build the solution:
 
+```bash
+# Clone the repository
+git clone [https://github.com/ayyyuuuuuuuub/AudioDeviceMonitor.git](https://github.com/ayyyuuuuuuuub/AudioDeviceMonitor.git)
 
+# Open the .sln file in Visual Studio and build in "Release" mode.
+```
 
-&nbsp;   System Tray Operation: Runs discreetly in the system tray. Double-click the icon to open the settings window.
+## Contributing
 
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
+Please make sure to update tests as appropriate.
 
-&nbsp;   Customizable Settings:
+## License
 
-
-
-&nbsp;       Start with Windows: Set it and forget it.
-
-
-
-&nbsp;       Toast Notifications: Get a desktop notification when media is paused.
-
-
-
-&nbsp;       Multi-Language Support: UI available in English and Finnish.
-
-
-
-&nbsp;       Light \& Dark Themes: Customize the look of the settings window.
-
-
-
-&nbsp;   Polished UI: A clean and simple interface for managing settings.
-
-
-
-🚀 Getting Started
-
-
-
-&nbsp;   Go to the Releases page.
-
-
-
-&nbsp;   Download the latest .exe file.
-
-
-
-&nbsp;   Run the application. It will start in your system tray.
-
-
-
-🔧 Building from Source
-
-
-
-If you want to build the application yourself, you'll need:
-
-
-
-&nbsp;   Visual Studio 2022 (Community Edition is fine)
-
-
-
-&nbsp;   The ".NET desktop development" workload installed in Visual Studio.
-
-
-
-Simply open the .sln file and build the project in Release mode.
-
-📝 License
-
-
-
-This project is licensed under the MIT License.
-
+[MIT](https://choosealicense.com/licenses/mit/)
