@@ -1,4 +1,4 @@
-﻿using Microsoft.Toolkit.Uwp.Notifications;
+using Microsoft.Toolkit.Uwp.Notifications;
 using Microsoft.Win32;
 using NAudio.CoreAudioApi;
 using NAudio.CoreAudioApi.Interfaces;
@@ -16,9 +16,7 @@ static class Program
     [STAThread]
     static void Main()
     {
-        global::System.Windows.Forms.Application.EnableVisualStyles();
-        global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
-        //global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+        ApplicationConfiguration.Initialize();
         Application.Run(new MainForm());
     }
 }
@@ -68,7 +66,7 @@ public class MainForm : Form
 
     private void InitializeUI()
     {
-        this.Text = AppName + " v1";
+        this.Text = AppName;
         this.FormBorderStyle = FormBorderStyle.Sizable;
         this.MaximizeBox = false;
         this.MinimizeBox = true;
