@@ -5,8 +5,8 @@ Audio Device Monitor
 A smart Windows utility that automatically pauses your media when you unplug your headphones, preventing audio from unexpectedly playing through your speakers.
 
 
-
-https://imgur.com/tRZ1C15
+[
+Screenshot](https://i.imgur.com/tRZ1C15.png)
 
 
 
